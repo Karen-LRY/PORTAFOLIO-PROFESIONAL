@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Desarrollo Java Full Stack Jr.</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#inicio">
+        Portafolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link fs-4 px-3" href="#inicio">Página Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4 px-3" href="#sobre-mi">Acerca de Mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4 px-3" href="#estudios">Estudios y Cursos</a>
+          </li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <!-- BOTÓN REDIRECCIÓN A CV -->
+            <a href="cv-karen-lopez.pdf" target="_blank" class="btn btn-primary btn-sm  fs-4 px-3 rounded-pill">
+              <i class="bi bi-file-earmark-arrow-down-fill me-1"></i> Ver CV
+
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PÁGINA PRINCIPAL / HERO -->
+  <section id="inicio" class="hero-section text-white py-5">
+    <div class="container py-5">
+      <div class="row align-items-center justify-content-between">
+        <!-- Texto de presentación -->
+        <div class="col-lg-7 text-center text-lg-start mb-5 mb-lg-0">
+          
+          <h1 class="display-4 fw-bold">Karen López <span class="text-primary d-block fs-4 mt-2">Desarrollador Java Full Stack Jr.</span></h1>
+          <p class="lead text-secondary my-4">
+            Construyendo soluciones web sólidas en el backend y dinámicas en el frontend. Enfocada en escribir código limpio, mantenible y escalable.
+          </p>
+          <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+            <a href="#sobre-mi" class="btn btn-outline-light btn-lg px-4">Conóceme</a>
+            <a href="http://www.linkedin.com/in/karen-lopez-b08716435" target="_blank" class="btn btn-primary btn-lg px-4">
+              <i class="bi bi-linkedin me-1"></i> Linkdin
+            </a>
+          </div>
+        </div>
+        <!-- Foto de Perfil -->
+        <div class="col-lg-4 text-center">
+          <div class="profile-img-container">
+            <img src="img/karen1.jpg" alt="Karen López" class="profile-img img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACERCA DE MÍ -->
+  <section id="sobre-mi" class="py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Acerca de Mí</h2>
+        <hr class="w-25 mx-auto text-primary border-3">
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card border-0 shadow-sm p-4">
+            <div class="card-body">
+              <h4 class="card-title text-primary mb-3">Perfil Profesional</h4>
+              <p class="card-text text-secondary lead fs-4">
+                Soy una Programadora Junior Full Stack apasionada por transformar ideas y lógica de negocio en soluciones digitales funcionales. Especializada en el ecosistema Java para la arquitectura del servidor e integración con el frontend mediante JavaScript y HTML.
+              </p>
+              <p class="card-text text-secondary lead fs-4">
+                Tengo experiencia construyendo proyectos dinámicos, consumo e integración de APIs REST, gestión de bases de datos relacionales y control de versiones con Git. Me apasiona resolver problemas mediante la programación, la automatización y la optimización de procesos.
+              </p>
+              
+              <h5 class="fw-bold mt-4 mb-3">Tecnologías y Herramientas</h5>
+              <div>
+                <span class="badge badge-tech fs-5 py-2 px-3"><i class="bi bi-cup-hot-fill text-warning me-1"></i> Java</span>
+                <span class="badge badge-tech fs-5 py-2 px-3"><i class="bi bi-filetype-js text-warning me-1"></i> JavaScript</span>
+                <span class="badge badge-tech fs-5 py-2 px-3"><i class="bi bi-filetype-html me-1"></i> HTML5 & CSS3</span>
+                <span class="badge badge-tech fs-5 py-2 px-3"><i class="bi bi-bootstrap text-info me-1"></i> Bootstrap</span>
+                <span class="badge badge-tech fs-5 py-2 px-3"><i class="bi bi-git text-danger me-1"></i> Git & GitHub</span>
+                <span class="badge badge-tech fs-5 py-2 px-3"><i class="bi bi-code-square text-info me-1"></i> VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESTUDIOS Y CURSOS -->
+  <section id="estudios" class="py-6" style="background-color: rgba(30, 41, 59, 0.4);">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Estudios y Cursos</h2>
+        <hr class="w-25 mx-auto text-primary border-3">
+      </div>
+
+      <div class="row g-4">
+        <!-- Educación Formal -->
+        <div class="col-md-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center mb-3">
+                <i class="bi bi-mortarboard-fill text-primary fs-4 me-3"></i>
+                <h4 class="card-title m-0">Formación Académica</h4>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent text-light px-0 py-3 border-secondary">
+                  <h6 class="fw-bold mb-1">Ingeniería en Sistemas Computacionales | Universidad UCAD</h6>
+                  <span class="text-primary small">En curso</span>
+                  <p class="text-secondary mb-0 mt-1">Enfoque en estructura de datos, programación orientada a objetos y arquitectura de software.</p>
+                </li>
+                <li class="list-group-item bg-transparent text-light px-0 py-3 border-0">
+                  <h6 class="fw-bold mb-1">Licenciatura en Relaciones Comerciales | IPN (ESCA)</h6>
+                  <span class="text-muted small">Concluido</span>
+                  <p class="text-secondary mb-0 mt-1">Formación complementaria enfocada en gestión, procesos y análisis, combinando el conocimiento de los negocios con la tecnología.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cursos y Certificaciones -->
+        <div class="col-md-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body p-6">
+              <div class="d-flex align-items-center mb-3">
+                <i class="bi bi-award-fill text-success fs-2 me-3"></i>
+                <h4 class="card-title m-0">Cursos y Certificaciones</h4>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent text-light px-0 py-3 border-secondary">
+                  <h6 class="fw-bold mb-1">Desarrollo Web Java Full Stack</h6>
+                  <span class="text-primary small">Generation</span>
+                  <p class="text-secondary mb-0 mt-1">Creación de aplicaciones web dinámicas con Java, Javascript y bases de datos.</p>
+                </li>
+                <li class="list-group-item bg-transparent text-light px-0 py-3 border-0">
+                  <h6 class="fw-bold mb-1">JavaScript y Entornos de Ejecución Node.js</h6>
+                  <span class="text-muted small">Accentue / Axity</span>
+                  <p class="text-secondary mb-0 mt-1">Lógica de programación orientada a eventos, manipulación del DOM y consumo de APIs.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white py-4 text-center">
+    <div class="container">
+      <a href="cv-karen-lopez.pdf" target="_blank" class="text-light text-decoration-none small">
+          <i class="bi bi-file-pdf me-1"></i> Descargar Curriculum Vitae
+          <span class="badge bg-primary fs-5 px-3 py-2 rounded-pill mb-3">Disposición para colaborar</span>
+        </a>
+      <p class="mb-1 text-secondary">© 2026 Portafolio Profesional - Desarrollador Java Full Stack Jr.</p>
+      <div class="d-flex justify-content-center fs-5 gap-3 mt-2">
+        
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
