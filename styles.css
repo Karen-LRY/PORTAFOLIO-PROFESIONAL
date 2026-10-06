@@ -1,10 +1,10 @@
 /* --- ESTILOS GENERALES Y PALETA DE COLORES --- */
 :root {
-  --bg-dark: #0f172a;       /* Azul muy oscuro / casi negro */
-  --bg-card: #1e293b;       /* Azul pizarra oscuro para tarjetas */
-  --accent-blue: #3b82f6;   /* Azul vibrante moderno */
+  --bg-dark: #0f172a;       /* Azul oscuro */
+  --bg-card: #1e293b;       /* Azul  oscuro para tarjetas */
+  --accent-blue: #3b82f6;   /* Azul vibrante  */
   --accent-hover: #2563eb;  /* Azul más intenso para hover */
-  --text-main: #f8fafc;     /* Blanco suave */
+  --text-main: #f8fafc;     /* Blanco  */
   --text-muted: #94a3b8;    /* Gris claro */
 }
 
@@ -31,7 +31,7 @@ body {
   color: var(--accent-blue) !important;
 }
 
-/* --- SECCIÓN HERO (INICIO) --- */
+/* --- SECCIÓN HERO --- */
 .hero-section {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
   border-bottom: 1px solid rgba(59, 130, 246, 0.1);
